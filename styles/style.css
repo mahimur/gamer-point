@@ -200,6 +200,10 @@
         align-items: center;
     }
 
+    .nav-title {
+        font-size: 3rem;
+    }
+
     .nav-menu ul {
         flex-direction: column;
         margin-top: 30px;
@@ -208,5 +212,28 @@
     .nav-menu ul li {
         margin-left: 0;
         margin-top: 40px;
+    }
+
+    /* banner styles */
+    .banner-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 80px 100px;
+    }
+
+    .banner-images {
+        max-width: 100%;
+    }
+
+    .banner-images img {
+        width: 100%;
+    }
+
+    .banner-title-primary {
+        font-size: 3.5rem;
+    }
+
+    .banner-title-secondary {
+        font-size: 5rem;
     }
 }
