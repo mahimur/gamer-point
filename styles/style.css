@@ -234,6 +234,39 @@
     .banner-title-secondary {
         font-size: 4rem;
     }
+
+    /* gamer styles */
+    .gamer-container {
+        padding: 50px 16px;
+        flex-direction: column;
+    }
+
+    .gamer-contents {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .gamer-image {
+        max-width: 100%;
+    }
+
+    .gamer-title {
+        font-size: 2.5rem;
+    }
+
+    .gamer-info {
+        font-size: 1rem;
+    }
+
+    .gamer-text {
+        font-size: 1.2rem;
+        line-height: 35px;
+    }
+
+    .gamer-text span {
+        font-size: 1.3rem;
+    }
 }
 
 
@@ -282,5 +315,21 @@
 
     .banner-title-secondary {
         font-size: 5rem;
+    }
+
+    /* gamer styles */
+    .gamer-container {
+        padding: 0 50px 50px;
+        flex-direction: column;
+    }
+
+    .gamer-contents {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .gamer-image {
+        max-width: 100%;
     }
 }
