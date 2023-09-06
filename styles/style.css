@@ -235,7 +235,7 @@ figure:hover .middle {
 .play-instant-container {
     display: flex;
     justify-content: space-between;
-    padding: 60px 230px 120px;
+    padding: 120px 230px;
 }
 
 .play-instant-contents {
@@ -292,7 +292,6 @@ figure:hover .middle {
     text-align: left;
     width: 50%;
 }
-
 
 /******** mobile responsive styles *********/
 
@@ -401,6 +400,54 @@ figure:hover .middle {
         padding: 10px;
         margin-bottom: 15px;
     }
+
+    /* play instant styles */
+
+    .play-instant-container {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .play-instant-contents {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instant-title {
+        margin-bottom: 30px;
+    }
+
+    .gamer-title {
+        font-size: 2.4rem;
+    }
+
+    .play-instant-image .play-image-1 {
+        width: 90%;
+    }
+
+    .play-instant-image .play-image-2 {
+        width: 40%;
+    }
+
+    .play-image-2 {
+        top: 60%;
+        left: -2%;
+    }
+
+    /* play instant 2 */
+    .play-instant-2 {
+        padding-top: 70px;
+    }
+
+    .play-instant-2 .play-instant-contents {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instant-2 .play-image-2 {
+        top: 60%;
+        left: 60%;
+    }
 }
 
 
@@ -491,5 +538,55 @@ figure:hover .middle {
 
     .gamer-title {
         font-size: 3rem;
+    }
+
+    /* play instant styles */
+
+    .play-instant-container {
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    .play-instant-contents {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .play-instant-title {
+        margin-bottom: 30px;
+    }
+
+    .gamer-title {
+        font-size: 3rem;
+    }
+
+    .play-instant-image .play-image-1 {
+        width: 80%;
+    }
+
+    .play-instant-image .play-image-2 {
+        width: 40%;
+    }
+
+    .play-image-2 {
+        top: 60%;
+        left: -2%;
+    }
+
+    /* play instant 2 */
+
+    .play-instant-2 {
+        padding-top: 140px;
+    }
+
+    .play-instant-2 .play-instant-contents {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instant-2 .play-image-2 {
+        top: 55%;
+        left: 60%;
     }
 }
