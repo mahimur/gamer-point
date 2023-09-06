@@ -231,7 +231,67 @@ figure:hover .middle {
     left: 35%;
 }
 
+/* play-instant styles */
+.play-instant-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 230px 120px;
+}
 
+.play-instant-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    width: 40%;
+}
+
+.play-instant-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.gamer-title {
+    margin-bottom: 0;
+}
+
+.play-instant-image {
+    position: relative;
+    text-align: end;
+}
+
+.play-instant-image .play-image-1 {
+    width: 70%;
+}
+
+.play-instant-image .play-image-2 {
+    position: absolute;
+    width: 35%;
+}
+
+.play-image-2 {
+    top: 280px;
+    left: 80px;
+}
+
+/* play-instant-2 */
+.play-instant-2 {
+    flex-direction: row-reverse;
+}
+
+.play-instant-2 .play-instant-image {
+    text-align: start;
+}
+
+.play-instant-2 .play-image-2 {
+    top: 250px;
+    left: 350px;
+}
+
+.play-instant-2 .play-instant-contents {
+    text-align: left;
+    width: 50%;
+}
 
 
 /******** mobile responsive styles *********/
