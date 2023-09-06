@@ -196,12 +196,43 @@
 .online-game figure {
     max-width: 23%;
     padding: 10px;
+    position: relative;
 }
 
 .online-game img,
 .online-game figcaption {
     max-width: 100%;
 }
+
+.image {
+    transition: .5s ease;
+}
+
+figure:hover .image {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.middle {
+    display: none;
+    text-align: center;
+    color: #FF42A5;
+    font-weight: 500;
+}
+
+.middle i {
+    font-size: 30px;
+}
+
+figure:hover .middle {
+    display: block;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
+
+
+
 
 /******** mobile responsive styles *********/
 
