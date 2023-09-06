@@ -177,6 +177,32 @@
     font-weight: 700;
 }
 
+/* online game styles */
+.online-game-contents {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.online-game-title {
+    margin-bottom: 15px;
+}
+
+.online-game {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 220px 60px;
+}
+
+.online-game figure {
+    max-width: 23%;
+    padding: 10px;
+}
+
+.online-game img,
+.online-game figcaption {
+    max-width: 100%;
+}
+
 /******** mobile responsive styles *********/
 
 @media screen and (max-width: 576px) {
