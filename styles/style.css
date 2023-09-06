@@ -227,8 +227,8 @@ figure:hover .image {
 figure:hover .middle {
     display: block;
     position: absolute;
-    top: 125px;
-    left: 100px;
+    top: 38%;
+    left: 35%;
 }
 
 
@@ -324,6 +324,23 @@ figure:hover .middle {
     .gamer-text span {
         font-size: 1.3rem;
     }
+
+    /* online game styles */
+
+    .online-game-contents {
+        padding: 0 20px;
+    }
+
+    .online-game {
+        flex-direction: column;
+        padding: 0 10px 60px;
+    }
+
+    .online-game figure {
+        max-width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
 }
 
 
@@ -388,5 +405,31 @@ figure:hover .middle {
 
     .gamer-image {
         max-width: 100%;
+    }
+
+    /* online game styles */
+
+    .online-game {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px 120px;
+    }
+
+    .online-game figure {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        min-width: 50%;
+        padding: 40px;
+    }
+
+    .online-game img,
+    .online-game figcaption {
+        max-width: 100%;
+    }
+
+    .gamer-title {
+        font-size: 3rem;
     }
 }
